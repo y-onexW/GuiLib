@@ -945,4 +945,4 @@ RS.RenderStepped:Connect(function()
     Lib._scrollDelta = 0
 end)
 
-return Lib
+_G.__UiLib = Lib
